@@ -1,4 +1,32 @@
 
+.topbar{
+    border: none;
+    font-size: 17px;
+    font-color: gray;
+    width: 100%;
+    height: 40px;
+    padding-left: 15px;
+    font-style: arial;
+}
+
+
+.toppicture {
+    height: 425px;
+    background-image: url('https://raw.githubusercontent.com/tiy-atl-js-sept-2015/Assignments/master/Assignment-04/Normal-Mode/assets/background.jpg');
+    border: 1px gray;
+    background-size: cover;
+    color: #000;
+    text-align: center;
+    font-family: arial; 
+    font-size: 20px;
+
+}
+
+
+
+
+
+/*
 * {
   border: 1px solid black;
 }
@@ -8,7 +36,7 @@
     background:url(https://raw.githubusercontent.com/tiy-atl-js-sept-2015/Assignments/master/Assignment-04/Normal-Mode/assets/background.jpg);
     background-repeat: no-repeat;
     padding:0px;
-}
+}*/
 /*.topbar{
     
     font-size: 17px;
