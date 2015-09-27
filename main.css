@@ -47,19 +47,29 @@ a{
   font-size: 20px
 }
 
+#leftmargin{
+  width: 10%;
+  float: left;
+}
+
+#rightmargin{
+  width:10%;
+  float:left;
+}
+
 #left{
-  width:30%;
+  width:26.7%;
   float: left;
 }
 
 #center{
-  width:30%;
+  width:26.6%;
   float:left;
 
 }
 
 #rigth{
-  width: 30%;
+  width: 26.7%;
   float: right;
 
 }
