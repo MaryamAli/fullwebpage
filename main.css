@@ -1,25 +1,116 @@
 
-* {
+/** {
   border: 1px solid black;
+}*/
+
+#linkbar{
+  position: fixed:
+  top:10px;
+  height: 30px;
+
 }
-.topbar{
-    border: none;
-    font-size: 17px;
-    font-color: gray;
-    width: 100%;
-    height: 40px;
-    padding-left: 15px;
-    font-style: helvetica;
+
+#header{
+  position:relative;
+  background-color: white;
+
+}
+
+ul{
+  list-style-type: none;
+  position:fixed;
+  margin:10px;
+}
+
+li{
+  display:inline;
+  color:gray;
+  padding:5px;
+}
+
+a{
+  text-decoration: none;
+  color:gray;
+}
+
+#mainphoto{
+  height:250px;
+  background-image: url('https://raw.githubusercontent.com/tiy-atl-js-sept-2015/Assignments/master/Assignment-04/Normal-Mode/assets/background.jpg');
+  background-size: cover;
+  border: 1px solid dark gray;
+}
+
+#mainphoto p{
+  text-align: center;
+  padding-top: 100px;
+  color:white;
+  font-size: 20px
+}
+
+#left{
+  width:30%;
+  float: left;
+}
+
+#center{
+  width:30%;
+  float:left;
+
+}
+
+#rigth{
+  width: 30%;
+  float: right;
+
 }
 
 
-.main {
+
+
+
+/*div{
+    background: white;
+    position: fixed;
+    z-index:99;
+    height:50px;
+}
+
+ul{
+    float: left;
+    list-style: none;
+  
+}
+
+
+
+
+li{
+    float: left;
+    
+}
+
+a{   
+    text-decoration: none;
+    display: inline-block;
+    color: gray;
+    font-size:20px;
+    padding:0 10px;
+ }*/
+
+    
+
+
+
+
+
+/*.main {
     height: 450px;
     background-image: url('https://raw.githubusercontent.com/tiy-atl-js-sept-2015/Assignments/master/Assignment-04/Normal-Mode/assets/background.jpg');
     border: 1px gray;
     background-size: cover;
     color: #000;
     position: relative;
+
     
     
 }    
@@ -29,8 +120,8 @@
     text-align: center;
     top: 200px;
     width: 100%;
-    position: absolute;
-   
+    position: relative;
+   */
    
 
     font-family: sans-serif;
@@ -52,7 +143,7 @@
   border: 1px solid grey;
   padding-bottom: 5px;
   background-color: blue;
-  
+
 }
 
 
