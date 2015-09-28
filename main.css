@@ -99,11 +99,43 @@ background-color: blue;
   float:right;
 }
 
+.infotext:before,
+.infotext:after{
+  content:"";
+  display: table;
+}
+
+.infotext:after{
+  clear: both;
+}
+
 .infotext{
-  
-  display: inline-block;
-  margin: 0 1.5%;
-  width: 30%;
+  clear: both;
+}
+
+.infotext{
+  border: 100px;
+  margin: 200px;
+  padding:20px;
+}
+p {
+  float:left;
+  width:45%;
+}
+
+p:nth-child(2){
+  float:right;
+  width:45%;
+}
+
+p:nth-child(3){
+  float:left;
+  width:45%;
+}
+
+p:nth-child(4){
+  float:right;
+  width:45%;
 }
 
 
