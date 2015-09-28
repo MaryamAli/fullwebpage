@@ -28,7 +28,7 @@ li{
   padding:5px;
 }
 
-a{
+#linkbar a{
   text-decoration: none;
   color:gray;
 }
@@ -64,6 +64,11 @@ table{
   float: left;
 }
 
+#left a{
+  text-decoration: none;
+  color:black;
+}
+
 #personal{
   background-color: green;
   color: white;
@@ -85,12 +90,23 @@ background-color: blue;
 
 }
 
+#center a{
+  text-decoration: none;
+  color:black;
+}
+
+
 #right{
   margin-top: 30px;
   width: 26.7%;
   float:left;
   margin-right: 40px;
 
+}
+
+#right a{
+  text-decoration: none;
+  color:black;
 }
 
 #rightmargin{
@@ -137,6 +153,24 @@ p:nth-child(3){
 p:nth-child(4){
   float:right;
   width:45%;
+}
+  
+#footer{
+  clear: both;
+  height: 60px;
+  width: 100%;
+  background-color: black;
+
+}
+#footer p{
+  text-align: center;
+  color: gray;
+  padding-top: 20px;
+
+}
+
+#footer a{
+  color:white;
 }
 
 
