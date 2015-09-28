@@ -118,7 +118,8 @@ background-color: blue;
   margin: 200px;
   padding:20px;
 }
-p {
+
+.infotext p {
   float:left;
   width:45%;
 }
