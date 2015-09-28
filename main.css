@@ -89,6 +89,7 @@ background-color: blue;
   margin-top: 30px;
   width: 26.7%;
   float:left;
+  margin-right: 40px;
 
 }
 
@@ -96,6 +97,13 @@ background-color: blue;
 
   width:10%;
   float:right;
+}
+
+.infotext{
+  
+  display: inline-block;
+  margin: 0 1.5%;
+  width: 30%;
 }
 
 
