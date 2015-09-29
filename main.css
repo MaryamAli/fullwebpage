@@ -33,7 +33,7 @@ li{
 
 #mainphoto{
   padding:75px;
-  background-image: url('images/background.jpg');
+  background-image: url("images/background.jpg");
   background-size: cover;
   border: 1px solid dark gray;
   margin:0 30px;
