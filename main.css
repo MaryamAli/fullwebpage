@@ -32,7 +32,7 @@ li{
 
 #mainphoto{
   height:250px;
-  background-image: url('');
+  background-image: url('/images/backgound.jpg');
   background-size: cover;
   border: 1px solid dark gray;
 }
