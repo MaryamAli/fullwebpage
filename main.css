@@ -28,18 +28,20 @@ li{
 #linkbar a{
   text-decoration: none;
   color:gray;
+
 }
 
 #mainphoto{
-  height:250px;
-  background-image: url('https://github.com/itawtitawapuddytat/fullwebpage/blob/master/images/background.jpg');
+  padding:75px;
+  background-image: url('images/background.jpg');
   background-size: cover;
   border: 1px solid dark gray;
+  margin:0 30px;
 }
 
 #mainphoto p{
   text-align: center;
-  padding-top: 100px;
+  
   color:white;
   font-size: 25px;
 }
@@ -51,20 +53,18 @@ li{
 
 table{
   text-align: center;
-  border-color:gray;
-  border-collapse: collapse;
+  border-color: #a5a5a5;
+  border-bottom: #a5a5a5 ;
+  border-right: #a5a5a5 ;
+  border-left: #a5a5a5 ;
   
 }
 
 button{
-  margin: 10px 0;
-
   
+  border-radius: 5px;
+  background-color: white;  
 }
-
-
-
-
 
 
 #left{
@@ -82,10 +82,6 @@ button{
   color:black;
   
 }
-
-
-
-
 
 
 #personal{
@@ -129,17 +125,17 @@ background-color: blue;
   color:black;
 }
 
-#rightmargin{
+/*#rightmargin{
 
   width:10%;
   float:right;
-}
+}*/
 
-.infotext:before,
+/*.infotext:before,
 .infotext:after{
   content:"";
   display: table;
-}
+}*/
 
 .infotext:after{
   clear: both;
@@ -150,29 +146,34 @@ background-color: blue;
 }
 
 .infotext{
+  max-width: 800px;
+  margin: 0 auto;
   border: 100px;
-  margin: 200px;
   padding:20px;
 }
 
 .infotext p {
   float:left;
-  width:45%;
+  width:40%;
+  
 }
 
 p:nth-child(2){
   float:right;
-  width:45%;
+  width:40%;
+  
 }
 
 p:nth-child(3){
   float:left;
-  width:45%;
+  width:40%;
+  
 }
 
 p:nth-child(4){
   float:right;
-  width:45%;
+  width:40%;
+  
 }
   
 #footer{
