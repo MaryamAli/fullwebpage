@@ -1,4 +1,4 @@
-site: webpage-recreation.surge.sh
+site: http://webpage-recreation.surge.sh
 
 Take an image and turn it into a functioning website.
 
